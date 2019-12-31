@@ -1,0 +1,9 @@
+#+TITLE: laplace-beltrami-eigensolver
+#+AUTHOR: Juan M. Bello-Rivas
+#+EMAIL: jmbr@superadditive.com
+
+This software computes the eigendecomposition of the Laplace-Beltrami
+operator on the charts of a Riemannian manifold. It uses finite elements via
+the FEniCS computing platform (version 2019.1.0) as well as the eigenvalue
+solvers in the SLEPc library. The user can specify an arbitrary metric tensor
+by writing its entries as valid C expressions.
